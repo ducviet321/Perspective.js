@@ -61,6 +61,3 @@ class Perspective {
     );
   };
 }
-
-new Perspective('h1', 150)
-new Perspective('img', 80)
