@@ -13,11 +13,11 @@ class Perspective {
 
     // Init params
     if (typeof (_params) === "number") {
-      _params = { perspective: _params }
+      _params = { amount: _params }
     }
 
     this.params = {
-      amount: _params.perspective || 100, // percentage
+      amount: _params.amount || 100, // percentage
       duration: _params.duration || 1000,
       timingFunction: _params.timingFunction || 'cubic-bezier(0.23, 1, 0.32, 1)',
     }
